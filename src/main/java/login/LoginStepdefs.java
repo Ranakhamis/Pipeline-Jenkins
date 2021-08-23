@@ -1,4 +1,4 @@
-package test.login;
+package main.java.login;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
