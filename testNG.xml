@@ -2,8 +2,8 @@
 <suite name="Ana Vodafone">
 
     <test name="hellooo">
-        <packages>
-            <package name=""/>
-        </packages>
+        <classes>
+            <class name="test.mypackage.login.LoginRunner"/>
+        </classes>
     </test>
 </suite>

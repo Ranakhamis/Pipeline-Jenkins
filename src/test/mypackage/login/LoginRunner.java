@@ -1,11 +1,11 @@
-package main.java.login;
+package test.mypackage.login;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/login/Login.feature",
-        glue = { "main.java.login"},
+        features = "src/test/mypackage/login/Login.feature",
+        //glue = { "test.mypackage.login"},
        // plugin = { "html:reports/Login-Report.html"},
         monochrome = true
 )
