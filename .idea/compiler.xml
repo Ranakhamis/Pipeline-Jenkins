@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ali_and_ruru_and_nermine" />
+        <module name="Pipeline-By-Jenkins&amp;Maven" />
       </profile>
     </annotationProcessing>
   </component>
