@@ -9,7 +9,7 @@ pipeline {
 
       }
       steps {
-        sh 'if cd Pipeline-Jenkins; then git pull; else git clone https://github.com/Ranakhamis/Pipeline-Jenkins.git;'
+        sh 'if cd Pipeline-Jenkins; then git pull; else git clone https://github.com/Ranakhamis/Pipeline-Jenkins.git; fi'
       }
     }
 
