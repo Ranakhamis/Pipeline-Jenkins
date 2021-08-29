@@ -30,7 +30,7 @@ pipeline {
 
     stage('run the test') {
       steps {
-        sh 'cd dummy_repo && mvn test'
+        sh 'cd Pipeline-Jenkins && mvn test'
       }
     }
 
