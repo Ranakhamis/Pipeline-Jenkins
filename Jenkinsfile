@@ -20,7 +20,6 @@ pipeline {
         sh 'sudo apt-get install openjdk-8-jdk -y'
         sh '''sudo apt install maven -y
 '''
-'''
       }
     }
 
